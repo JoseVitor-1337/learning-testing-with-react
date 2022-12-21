@@ -8,7 +8,7 @@ describe('CounterTwo', () => {
   test('Should render', () => {
     render(<CounterTwo />)
     const heading = screen.getByRole('heading')
-    expect(heading).not.toBeInTheDocument()
+    expect(heading).toBeInTheDocument()
   })
 
   test('Should render with the incrementButton and call handleIncrement() function once', async () => {
