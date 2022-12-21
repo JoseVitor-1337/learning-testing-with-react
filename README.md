@@ -18,8 +18,6 @@ the libraries used was **jest** and **react-testing-library**
 
 - [git](https://nodejs.org/en/) is optional, easy way to get the source code into
 
-## Concepts
-
 ## Usage
 
 to start the application need install all Dependencies
