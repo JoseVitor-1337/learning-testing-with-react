@@ -31,9 +31,8 @@
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
-      "yarn lint",
-      "yarn format",
-      "yarn test"
+      "eslint",
+      "prettier"
     ]
   },
   "jest": {
